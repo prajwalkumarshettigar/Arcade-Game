@@ -41,7 +41,7 @@ Enemy.prototype.update = function(dt) {
 
 Enemy.prototype.enemy_position = function(){
         return Math.floor(Math.random() * 3 +1 ) * this.rowToYMultiplier;
-}
+};
 
 // Draw the enemy on the screen, required method for game
 Enemy.prototype.render = function() {
@@ -59,7 +59,7 @@ Enemy.prototype.collisions = function(player) {
      if( col == player.col && row == player.row){
         return true;
      }
-}
+};
 
 //Player
 var Player = function() {
@@ -93,7 +93,7 @@ Player.prototype.render = function() {
 Player.prototype.reset =function(){
     this.col = this.startCol;
     this.row = this.startRow;
-}
+};
 
 //Print points
 Player.prototype.points = function() {
@@ -104,7 +104,7 @@ Player.prototype.points = function() {
         ctx.strokeStyle = "black";
         ctx.lineWidth = 2;
         ctx.strokeText(this.point, 450, 100);
-}
+};
 
 //Keyboard input handeling for player
 Player.prototype.handleInput = function(direction) {
