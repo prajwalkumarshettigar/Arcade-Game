@@ -50,7 +50,7 @@ Enemy.prototype.render = function() {
 
 //Collison Detection
 Enemy.prototype.collisions = function(player) {
-     var colwidth = 101;
+     var colwidth = 80;
      var rowHeight = 101;
 
      var col = Math.floor(this.x / colwidth);
