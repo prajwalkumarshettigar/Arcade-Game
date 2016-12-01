@@ -8,7 +8,7 @@ var Enemy = function() {
     this.sprite = 'images/enemy-bug.png';
     this.x = 0;
     this.rowToYMultiplier = 75;
-    this.maxSpeed = 200;
+    this.maxSpeed = 250;
     this.y = this.enemy_position();
     this.speed = Math.floor(Math. random() * this.maxSpeed + 1);
 
