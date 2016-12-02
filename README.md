@@ -1,10 +1,10 @@
-#Clasic Arcade Game - Frogger
+# Clasic Arcade Game - Frogger
 
-##Intro
+## Intro
 Frogger is a Game where Player tries to reach the water without coliding into any enemy.
 
-##How To Run
-###File Structure
+## How To Run
+### File Structure
 * css
 * `style.css` - Used for styling `index.html`
 * images  - Contains all images used in the Game.
@@ -15,7 +15,7 @@ Frogger is a Game where Player tries to reach the water without coliding into an
 * `resources.js` - This file acts like resource loading utility.
 * `index.html`
 
-##How to Play
+## How to Play
 
 * Start the Game by opening `index.html` file in the browser.
 * Use UP DOWN LEFT RIGHT Arrow keys to navigate the player.
